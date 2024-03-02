@@ -13,7 +13,7 @@ body {
 }
 
 img {
-  size: 80%;
+  size: 90%;
 }
 
 .planets-section {
@@ -45,6 +45,12 @@ img {
   color: #111111;
 
   margin-bottom: 8px;
+}
+
+.planet {
+  display: flex;
+
+  justify-content: center;
 }
 
 .planet-name {
