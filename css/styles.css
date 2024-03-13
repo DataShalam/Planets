@@ -88,6 +88,7 @@ img {
 
   justify-content: space-around;
   align-items: center;
+  pointer-events: none;
 }
 
 .backside-left {
@@ -102,6 +103,7 @@ img {
 
 .planet:hover > .planet-backside {
   box-shadow: 0px 0px 32px #ffffff;
+  pointer-events: inherit;
 }
 
 .planet:hover > .backside-left {
